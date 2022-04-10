@@ -1,5 +1,5 @@
 import { Body, Controller, Get, Post, Req, Res } from '@nestjs/common';
-import { joinRequestDto } from './dto/join.request.dts';
+import { joinRequestDto } from './dto/join.request.dto';
 import { UsersService } from './users.service';
 
 @Controller('users')
