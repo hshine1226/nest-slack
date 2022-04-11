@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
-import { joinRequestDto } from './dto/join.request.dto';
+import { JoinRequestDto } from './dto/join.request.dto';
 
 @Injectable()
 export class UsersService {
-  postUsers({ email, nickname, password }: joinRequestDto) {}
+  postUsers({ email, nickname, password }: JoinRequestDto) {}
 }
